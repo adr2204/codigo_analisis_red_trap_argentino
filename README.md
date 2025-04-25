@@ -43,9 +43,7 @@ Se recolectaron **2843  tweets** con Selenium y `undetected_chromedriver` a part
 
 │   └── scraper.py                         # Código de scraping con Selenium
 
-│   └── analisis_red.py                    # Construcción y análisis de red
-
-│   └── visualizacion.py                   # Visualización con NetworkX y matplotlib
+│   └── analisis_red_y_visualizacion.py                    # Construcción y análisis de red y visualización con NetworkX y matplotlib
 
 └── README.md
 
