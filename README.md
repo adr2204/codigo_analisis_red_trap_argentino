@@ -1,4 +1,4 @@
-# 📊 Análisis de Redes Sociales del Trap Argentino en X (Twitter)
+# Análisis de Redes Sociales del Trap Argentino en X (Twitter)
 
 Este repositorio contiene el código utilizado para el análisis y visualización de una red social construida a partir de tweets relacionados con la escena del *trap argentino*. El objetivo del trabajo es identificar comunidades, detectar nodos centrales y extraer conclusiones a partir de datos reales obtenidos mediante web scraping.
 
@@ -29,21 +29,30 @@ Se recolectaron **2843  tweets** con Selenium y `undetected_chromedriver` a part
 ##  Estructura del repositorio
 
 📂 trap-argentino-red-social
+
 ├── data/
+
 │   └── tweets_trap_argentino.csv          # Tweets scrapeados con keywords
+
 │   └── nodos_temas.csv                    # Nodos (palabras clave)
+
 │   └── aristas_temas.csv                  # Aristas (co-ocurrencias)
+
+
 ├── src/
 │   └── scraper.py                         # Código de scraping con Selenium
+
 │   └── analisis_red.py                    # Construcción y análisis de red
+
 │   └── visualizacion.py                   # Visualización con NetworkX y matplotlib
+
 └── README.md
 
 
 
 ---
 
-## 📈 Análisis de red
+##  Análisis de red
 
 - Red construida por co-ocurrencia de palabras clave dentro de los tweets
 - Detección de comunidades con el algoritmo de **Louvain**
@@ -54,7 +63,7 @@ Se recolectaron **2843  tweets** con Selenium y `undetected_chromedriver` a part
 
 ---
 
-## 🎨 Visualización
+##  Visualización
 
 - Grafo con nodos coloreados según comunidad detectada
 - Tamaño de nodo proporcional a su centralidad
@@ -62,11 +71,11 @@ Se recolectaron **2843  tweets** con Selenium y `undetected_chromedriver` a part
 
 ---
 
-## 🧠 Conclusiones
+##  Conclusiones
 
 - Las comunidades giran en torno a fandoms de artistas clave (Duki, YSY A, Paulo Londra)
 - Algunas palabras clave actúan como puentes entre fandoms o controversias
-- Las polémicas y conflictos (como YSYSMO vs. Modo Diablo) generan estructuras densas
+- Las polémicas y conflictos (como YSYSMO) generan estructuras densas
 
 ---
 
