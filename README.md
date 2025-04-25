@@ -30,6 +30,11 @@ Se recolectaron **2843  tweets** con Selenium y `undetected_chromedriver` a part
 
 📂 trap-argentino-red-social
 
+├── análisis/
+
+│   └── Trap_ARG.pdf          # Documento hablando del análisis e interpretaciones
+
+
 ├── data/
 
 │   └── tweets_trap_argentino.csv          # Tweets scrapeados con keywords
